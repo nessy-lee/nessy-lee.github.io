@@ -158,11 +158,11 @@ a:hover {
   	margin: 20px;
 }
 
-.arrow:hover {
+/*.arrow:hover {
 	-webkit-animation-play-state: paused;
 	opacity: 60%;
 	transform: scale(1.25) rotate(45deg);
-}
+}*/
 
 
 @keyframes bounce {
