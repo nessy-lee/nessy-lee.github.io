@@ -29,7 +29,7 @@ function biggie() {
  //makes the font uppercase and adds Moo suffix
  function mooing() {
     var suffix = '-Moo',
-    txt = document.getElementById('growing');
+    txt = document.getElementById("growing");
     txt.style.textTransform="uppercase";
     txt.value = txt.value.split('.').join('') + suffix;
  }
