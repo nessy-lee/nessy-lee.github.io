@@ -1,7 +1,7 @@
 // Typewriter created by Tameem Safi.
 // source: https://github.com/tameemsafi/typewriterjs
 
-var app = document.getElementById('app');
+/*var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
     loop: true,
@@ -101,3 +101,4 @@ for (var i = 0; i < btns.length; i++) {
     console.log(current);
   });
 }
+*/
