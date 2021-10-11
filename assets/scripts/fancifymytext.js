@@ -1,7 +1,7 @@
-//alert
-function alertz() {
+/*alert
+function alerting() {
    alert("You fancy!"); 
-} 
+} */
 
 //makes font bigger
 function biggie() {
