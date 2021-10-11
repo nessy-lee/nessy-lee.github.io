@@ -5,13 +5,13 @@ function alerting() {
 
 //makes font bigger
 function bigging() {
-    var text = document.getElementById("growing");
+    var text = document.getElementById("grow");
     text.style.fontSize = "24pt";
  }
  
  //makes font bolded
  function bolding() {
-    var text = document.getElementById("growing");
+    var text = document.getElementById("grow");
     text.style.fontWeight = "bold";
     text.style.color= "blue";
     text.style.textDecoration= "underline";
@@ -19,7 +19,7 @@ function bigging() {
  
  //makes the font unbolded
  function unbolding() {
-    var text = document.getElementById("growing");
+    var text = document.getElementById("grow");
     text.style.fontSize = "initial";
     text.style.fontWeight = "normal";
     text.style.color = "black";
@@ -29,7 +29,7 @@ function bigging() {
  //makes the font uppercase and adds Moo suffix
  function mooing() {
     var suffix = '-Moo',
-    txt = document.getElementById('growing');
+    txt = document.getElementById("grow");
     txt.style.textTransform="uppercase";
     txt.value = txt.value.split('.').join('') + suffix;
  }
