@@ -1,6 +1,6 @@
 /*alert
 function alerting() {
-   alert("You fancy!"); 
+   alert("You're fancy!"); 
 } */
 
 //makes font bigger
