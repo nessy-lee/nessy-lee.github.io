@@ -269,4 +269,27 @@
 		<script src="assets/scripts/scripts.js"></script>
 
 	</body>
+	<head>
+		<title>Fancify (gotta luv fancy fonts c:)</title>
+		<!-- link to your script file here -->
+	</head>
+
+	<body>
+		<h1>Fancify my Text By Vanessa Lee</h1>
+		<textarea style="text-transform: none; font-weight: normal; font-size: 16px;" id="mybox" name="text"
+          rows="4" cols="30"> Font size is originally 16px
+		</textarea>
+
+		<!-- Your UI controls go here -->
+		<button>Bigger</button>
+		<button id="button 2">Radio</button>
+		<select id = "slt" onchange="changeBox()">
+			<option value = "BoringBetty">BoringBetty</option>
+			<option value = "FancyShmancy">FancyShmancy</option>
+		</select>
+		<button id = "Moo">Moo</button>
+		
+	</body>
+	<!--putting the script link here fixed all my problems I had with my button function-->
+	<script src = "fancifymytext.js"></script>
 </html>
