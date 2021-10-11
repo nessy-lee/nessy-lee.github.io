@@ -280,27 +280,36 @@
 
 	</body>
 -->
-	<head>
-		<title>Fancify (gotta luv fancy fonts c:)</title>
-		<!-- link to your script file here -->
-	</head>
+<head>
+	<title>Fancify Shamcify</title>
 
-	<body>
-		<h1>Fancify my Text By Vanessa Lee</h1>
-		<textarea style="text-transform: none; font-weight: normal; font-size: 16px;" id="mybox" name="text"
-          rows="4" cols="30"> Font size is originally 16px
-		</textarea>
+	<!-- link to your script file here -->
+	<script src="fancifymytext.js"></script>
+	<!--<script> alert("Hello, world!")</script>-->
+</head>
 
-		<!-- Your UI controls go here -->
-		<button>Bigger</button>
-		<button id="button 2">Radio</button>
-		<select id = "slt" onchange="changeBox()">
-			<option value = "BoringBetty">BoringBetty</option>
-			<option value = "FancyShmancy">FancyShmancy</option>
-		</select>
-		<button id = "Moo">Moo</button>
-		
-	</body>
-	<!--putting the script link here fixed all my problems I had with my button function-->
-	<script src = "fancifymytext.js"></script>
+<body>
+	<h1>Fancify my Text</h1>
+	<!-- Your UI controls go here -->
+	<!--Field Box 1-->
+	<form>
+		<fieldset>
+			<legend>Text</legend>
+			<label for="Input"><!--Text--></label>
+			<textarea id="growing" type="text" rows="4" cols="30" wrap="hard" placeholder="Please enter text here..."></textarea>
+		</fieldset>
+	</form>
+	<!--Field Box 2-->
+	<form>
+		<fieldset>
+			<legend>Fancify</legend>
+			<label for="Buttons"><!--Fancify--></label>
+			<button type ="button" value="Bigger!" onclick="bigz()">Bigger!</button>
+			<input type="radio" name="FancyShmancy" value="FancyShmancy" onchange="boldz()"> FancyShmancy
+			<input type="radio" name="BoringBetty" value="BoringBetty" onchange="boringz()"> BoringBetty
+			<button type="button" name="Moo" value="moo" onclick="mooz()">Moo</button>
+		</fieldset>  
+	</form>
+
+</body>
 </html>
